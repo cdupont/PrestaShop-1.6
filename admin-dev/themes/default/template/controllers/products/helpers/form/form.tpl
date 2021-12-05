@@ -249,9 +249,10 @@
 							required: ""
 						}
 					},
-					submitHandler: function(form) {
-						form.submit();
-					},
+					//C.Dupont Bug fix https://www.prestashop.com/forums/topic/563518-solved-problem-saving-products/					
+					//submitHandler: function(form) {
+					//	form.submit();
+					//},
 					// override jquery validate plugin defaults for bootstrap 3
 					highlight: function(element) {
 						$(element).closest('.form-group').addClass('has-error');
