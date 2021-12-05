@@ -48,7 +48,7 @@ class MySQLCore extends Db
             define('_PS_MYSQL_REAL_ESCAPE_STRING_', function_exists('mysql_real_escape_string'));
         }
 
-        if (!$this->link = mysql_connect($this->server, $this->user, $this->password)) {
+        if (!$this->link = mysqli_connect($this->server, $this->user, $this->password)) {
             throw new PrestaShopDatabaseException(Tools::displayError('Link to database cannot be established.'));
         }
 
