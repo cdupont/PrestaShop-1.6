@@ -98,8 +98,8 @@
 					{section name=friends start=0 loop=$nbFriends step=1}
 					<tr class="{if $smarty.section.friends.index % 2}item{else}alternate_item{/if}">
 						<td class="align_right">{$smarty.section.friends.iteration}</td>
-						<td><input type="text" class="form-control" name="friendsLastName[{$smarty.section.friends.index}]" size="14" value="{if isset($smarty.post.friendsLastName[$smarty.section.friends.index])}{$smarty.post.friendsLastName[$smarty.section.friends.index]|escape:'html':'UTF-8'}{/if}" /></td>
 						<td><input type="text" class="form-control" name="friendsFirstName[{$smarty.section.friends.index}]" size="14" value="{if isset($smarty.post.friendsFirstName[$smarty.section.friends.index])}{$smarty.post.friendsFirstName[$smarty.section.friends.index]|escape:'html':'UTF-8'}{/if}" /></td>
+						<td><input type="text" class="form-control" name="friendsLastName[{$smarty.section.friends.index}]" size="14" value="{if isset($smarty.post.friendsLastName[$smarty.section.friends.index])}{$smarty.post.friendsLastName[$smarty.section.friends.index]|escape:'html':'UTF-8'}{/if}" /></td>
 						<td><input type="text" class="form-control" name="friendsEmail[{$smarty.section.friends.index}]" size="20" value="{if isset($smarty.post.friendsEmail[$smarty.section.friends.index])}{$smarty.post.friendsEmail[$smarty.section.friends.index]|escape:'html':'UTF-8'}{/if}" /></td>
 					</tr>
 					{/section}
@@ -151,10 +151,10 @@
 					<td>
 						<input type="checkbox" name="friendChecked[{$pendingFriend.id_referralprogram}]" id="friendChecked[{$pendingFriend.id_referralprogram}]" value="1" />
 					</td>
+					<td>{$pendingFriend.firstname|substr:0:22}</td>
 					<td>
 						<label for="friendChecked[{$pendingFriend.id_referralprogram}]">{$pendingFriend.lastname|substr:0:22}</label>
-					</td>
-					<td>{$pendingFriend.firstname|substr:0:22}</td>
+					</td>			
 					<td>{$pendingFriend.email}</td>
 					<td>{dateFormat date=$pendingFriend.date_upd full=1}</td>
 				</tr>
@@ -195,8 +195,8 @@
 			{foreach from=$subscribeFriends item=subscribeFriend name=myLoop}
 			<tr>
 				<td>{$smarty.foreach.myLoop.iteration}.</td>
-				<td>{$subscribeFriend.lastname|substr:0:22}</td>
 				<td>{$subscribeFriend.firstname|substr:0:22}</td>
+				<td>{$subscribeFriend.lastname|substr:0:22}</td>
 				<td>{$subscribeFriend.email}</td>
 				<td>{dateFormat date=$subscribeFriend.date_upd full=1}</td>
 			</tr>
