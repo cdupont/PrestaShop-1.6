@@ -263,3 +263,5 @@ if (!defined('_MEDIA_SERVER_3_')) {
 /* Get smarty */
 require_once($currentDir.'/smarty.config.inc.php');
 $context->smarty = $smarty;
+
+ini_set('memory_limit', '256M');
