@@ -25,12 +25,12 @@ log/*
 upload/*
 vendor/*
 
-admin-dev/autoupgrade/*
-admin-dev/backups/*
-admin-dev/import/*
+4dm1n/autoupgrade/*
+4dm1n/backups/*
+4dm1n/import/*
 
 themes/*/cache/*
-admin-dev/themes/*/cache/*
+4dm1n/themes/*/cache/*
 
 # Config
 
@@ -44,12 +44,12 @@ config/xml/*
 modules/*
 override/*
 
-admin-dev/themes/default/sass/ie.sass
-admin-dev/themes/default/sass/print.sass
-admin-dev/themes/default/sass/screen.sass
-admin-dev/themes/default/css/ie.css
-admin-dev/themes/default/css/print.css
-admin-dev/themes/default/css/screen.css
+4dm1n/themes/default/sass/ie.sass
+4dm1n/themes/default/sass/print.sass
+4dm1n/themes/default/sass/screen.sass
+4dm1n/themes/default/css/ie.css
+4dm1n/themes/default/css/print.css
+4dm1n/themes/default/css/screen.css
 
 # Translations and emails templates
 
