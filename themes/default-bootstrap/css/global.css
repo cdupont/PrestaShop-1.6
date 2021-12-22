@@ -234,7 +234,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial', sans-serif;
   font-size: 13px;
   line-height: 1.42857;
   color: #777777;
@@ -3903,7 +3903,6 @@ td.visible-print {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0); }
-
 /* makes the font 33% larger relative to the icon container */
 .icon-lg {
   font-size: 1.33333em;
