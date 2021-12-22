@@ -62,14 +62,33 @@
 			<script type="text/javascript" src="{$js_uri|escape:'html':'UTF-8'}"></script>
 			{/foreach}
 		{/if}
+		<script type="text/javascript">
+			{literal}
+    		(function(h,o,t,j,a,r){
+        		h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        		h._hjSettings={hjid:2752968,hjsv:6};
+        		a=o.getElementsByTagName('head')[0];
+        		r=o.createElement('script');r.async=1;
+        		r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        		a.appendChild(r);
+    		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+			{/literal}
+		</script>
 		{$HOOK_HEADER}
 		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<!--[if IE 8]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 		<![endif]-->
+		
 	</head>
 	<body{if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{else} show-left-column{/if}{if $hide_right_column} hide-right-column{else} show-right-column{/if}{if isset($content_only) && $content_only} content_only{/if} lang_{$lang_iso}">
+{literal}
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJL6R6J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+{/literal}		
 	{if !isset($content_only) || !$content_only}
 		{if isset($restricted_country_mode) && $restricted_country_mode}
 			<div id="restricted-country">
