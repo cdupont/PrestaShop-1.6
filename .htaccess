@@ -1,0 +1,142 @@
+ # Redirects for deleted products
+RewriteEngine on
+RewriteRule . - [E=REWRITEBASE:/shop/]
+RewriteRule /(9|10|11|12|13)-.*\.html$                     %{ENV:REWRITEBASE}it/8-.html [R=301,NC,L]
+RewriteRule /(15)-.*\.html$                                %{ENV:REWRITEBASE}it/14-.html [R=301,NC,L]
+RewriteRule /(17)-.*\.html$                                %{ENV:REWRITEBASE}it/16-.html [R=301,NC,L]
+RewriteRule /(19|20|21|22|23|24)-.*\.html$                 %{ENV:REWRITEBASE}it/18-.html [R=301,NC,L]
+RewriteRule /(27|28|29|30)-.*\.html$                       %{ENV:REWRITEBASE}it/26-.html [R=301,NC,L]
+RewriteRule /(32|33|34|35)-.*\.html$                       %{ENV:REWRITEBASE}it/31-.html [R=301,NC,L]
+RewriteRule /(37)-.*\.html$                                %{ENV:REWRITEBASE}it/36-.html [R=301,NC,L]
+RewriteRule /(39|40|41|42|43)-.*\.html$                    %{ENV:REWRITEBASE}it/38-.html [R=301,NC,L]
+RewriteRule /(45|46|47|48|49)-.*\.html$                    %{ENV:REWRITEBASE}it/44-.html [R=301,NC,L]
+RewriteRule /(51|52|53|54|55|56|57|58|59|60|61)-.*\.html$  %{ENV:REWRITEBASE}it/50-.html [R=301,NC,L]
+RewriteRule /(64|65|66)-.*\.html$                          %{ENV:REWRITEBASE}it/63-.html [R=301,NC,L]
+RewriteRule /(68|69|70)-.*\.html$                          %{ENV:REWRITEBASE}it/67-.html [R=301,NC,L]
+RewriteRule /(72)-.*\.html$                                %{ENV:REWRITEBASE}it/71-.html [R=301,NC,L]
+RewriteRule /(74|75|76|77|78)-.*\.html$                    %{ENV:REWRITEBASE}it/73-.html [R=301,NC,L]
+RewriteRule /(80|81|82|83|84)-.*\.html$                    %{ENV:REWRITEBASE}it/79-.html [R=301,NC,L]
+RewriteRule /(86|87)-.*\.html$                             %{ENV:REWRITEBASE}it/85-.html [R=301,NC,L]
+RewriteRule /(89|90|91|92|93|94)-.*\.html$                 %{ENV:REWRITEBASE}it/88-.html [R=301,NC,L]
+RewriteRule /(96|97|98|99|100)-.*\.html$                   %{ENV:REWRITEBASE}it/95-.html [R=301,NC,L]
+RewriteRule /(102|103|104)-.*\.html$                       %{ENV:REWRITEBASE}it/101-.html [R=301,NC,L]
+RewriteRule /(106|107|108)-.*\.html$                       %{ENV:REWRITEBASE}it/105-.html [R=301,NC,L]
+RewriteRule /(110)-.*\.html$                               %{ENV:REWRITEBASE}it/109-.html [R=301,NC,L]
+RewriteRule /(112|113|114|115|116)-.*\.html$               %{ENV:REWRITEBASE}it/111-.html [R=301,NC,L]
+RewriteRule /(118|119|120)-.*\.html$                       %{ENV:REWRITEBASE}it/117-.html [R=301,NC,L]
+RewriteRule /(122|123|124|125|126)-.*\.html$               %{ENV:REWRITEBASE}it/121-.html [R=301,NC,L]
+RewriteRule /(118|119|120)-.*\.html$                       %{ENV:REWRITEBASE}it/117-.html [R=301,NC,L]
+RewriteRule /(122|123|124|125|126)-.*\.html$               %{ENV:REWRITEBASE}it/122-.html [R=301,NC,L]
+RewriteRule /(128|129|130)-.*\.html$                       %{ENV:REWRITEBASE}it/127-.html [R=301,NC,L]
+RewriteRule /(132|133|134)-.*\.html$                       %{ENV:REWRITEBASE}it/131-.html [R=301,NC,L]
+RewriteRule /(136|137|138|139|140)-.*\.html$               %{ENV:REWRITEBASE}it/135-.html [R=301,NC,L]
+RewriteRule /(142|143|144)-.*\.html$                       %{ENV:REWRITEBASE}it/141-.html [R=301,NC,L]
+RewriteRule /(146|147|148)-.*\.html$                       %{ENV:REWRITEBASE}it/145-.html [R=301,NC,L]
+RewriteRule /(150|151|152|153|154)-.*\.html$               %{ENV:REWRITEBASE}it/149-.html [R=301,NC,L]
+RewriteRule /(156|157|158|159)-.*\.html$                   %{ENV:REWRITEBASE}it/155-.html [R=301,NC,L]
+RewriteRule /(161|162|163|164|165)-.*\.html$               %{ENV:REWRITEBASE}it/160-.html [R=301,NC,L]
+RewriteRule /(167|168|169)-.*\.html$                       %{ENV:REWRITEBASE}it/166-.html [R=301,NC,L]
+RewriteRule /(171|172|173|174|175)-.*\.html$               %{ENV:REWRITEBASE}it/170-.html [R=301,NC,L]
+RewriteRule /(177|178|179|180|181)-.*\.html$               %{ENV:REWRITEBASE}it/176-.html [R=301,NC,L]
+RewriteRule /(183|184|185|186)-.*\.html$                   %{ENV:REWRITEBASE}it/182-.html [R=301,NC,L]
+RewriteRule /(188|189|190|191|192)-.*\.html$               %{ENV:REWRITEBASE}it/187-.html [R=301,NC,L]
+RewriteRule /(194|195|196|197|198)-.*\.html$               %{ENV:REWRITEBASE}it/193-.html [R=301,NC,L]
+RewriteRule /(200|201|202|203|204)-.*\.html$               %{ENV:REWRITEBASE}it/199-.html [R=301,NC,L]
+RewriteRule /(206|207|208|209|210)-.*\.html$               %{ENV:REWRITEBASE}it/205-.html [R=301,NC,L]
+RewriteRule /(212|213|214|215|216)-.*\.html$               %{ENV:REWRITEBASE}it/211-.html [R=301,NC,L]
+RewriteRule /(218|219|220|221|222|223)-.*\.html$           %{ENV:REWRITEBASE}it/217-.html [R=301,NC,L]
+RewriteRule /(225|226|227|228|229|230)-.*\.html$           %{ENV:REWRITEBASE}it/224-.html [R=301,NC,L]
+RewriteRule /(232|233|234|235|236)-.*\.html$               %{ENV:REWRITEBASE}it/231-.html [R=301,NC,L]
+
+#Category changes
+RewriteRule /14-maschere$      %{ENV:REWRITEBASE}it/49-maschere [R=301,NC,L]
+RewriteRule /15-metallo$       %{ENV:REWRITEBASE}it/54-maschere-metallo [R=301,NC,L]
+RewriteRule /16-cartapesta$    %{ENV:REWRITEBASE}it/55-maschere-cartapesta [R=301,NC,L]
+
+# ~~start~~ Do not remove this comment, Prestashop will keep automatically the code outside this comment when .htaccess will be generated again
+# .htaccess automaticaly generated by PrestaShop e-commerce open-source solution
+# http://www.prestashop.com - http://www.prestashop.com/forums
+
+<IfModule mod_rewrite.c>
+<IfModule mod_env.c>
+SetEnv HTTP_MOD_REWRITE On
+</IfModule>
+
+RewriteEngine on
+
+
+#Domain: www.maschere.it
+RewriteRule . - [E=REWRITEBASE:/shop/]
+RewriteRule ^api$ api/ [L]
+
+RewriteRule ^api/(.*)$ %{ENV:REWRITEBASE}webservice/dispatcher.php?url=$1 [QSA,L]
+
+# Images
+RewriteRule ^([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$1$2$3.jpg [L]
+RewriteRule ^([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$2/$1$2$3$4.jpg [L]
+RewriteRule ^([0-9])([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$2/$3/$1$2$3$4$5.jpg [L]
+RewriteRule ^([0-9])([0-9])([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$2/$3/$4/$1$2$3$4$5$6.jpg [L]
+RewriteRule ^([0-9])([0-9])([0-9])([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$2/$3/$4/$5/$1$2$3$4$5$6$7.jpg [L]
+RewriteRule ^([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$2/$3/$4/$5/$6/$1$2$3$4$5$6$7$8.jpg [L]
+RewriteRule ^([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$2/$3/$4/$5/$6/$7/$1$2$3$4$5$6$7$8$9.jpg [L]
+RewriteRule ^([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])([0-9])(\-[_a-zA-Z0-9-]*)?(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/p/$1/$2/$3/$4/$5/$6/$7/$8/$1$2$3$4$5$6$7$8$9$10.jpg [L]
+RewriteRule ^c/([0-9]+)(\-[\.*_a-zA-Z0-9-]*)(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/c/$1$2$3.jpg [L]
+RewriteRule ^c/([a-zA-Z_-]+)(-[0-9]+)?/.+\.jpg$ %{ENV:REWRITEBASE}img/c/$1$2.jpg [L]
+# AlphaImageLoader for IE and fancybox
+RewriteRule ^images_ie/?([^/]+)\.(jpe?g|png|gif)$ js/jquery/plugins/fancybox/images/$1.$2 [L]
+
+# Dispatcher
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$ %{ENV:REWRITEBASE}index.php [NC,L]
+</IfModule>
+
+AddType application/vnd.ms-fontobject .eot
+AddType font/ttf .ttf
+AddType font/otf .otf
+AddType application/x-font-woff .woff
+<IfModule mod_headers.c>
+	<FilesMatch "\.(ttf|ttc|otf|eot|woff|svg)$">
+		Header add Access-Control-Allow-Origin "*"
+	</FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/gif "access plus 1 month"
+	ExpiresByType image/jpeg "access plus 1 month"
+	ExpiresByType image/png "access plus 1 month"
+	ExpiresByType text/css "access plus 1 week"
+	ExpiresByType text/javascript "access plus 1 week"
+	ExpiresByType application/javascript "access plus 1 week"
+	ExpiresByType application/x-javascript "access plus 1 week"
+	ExpiresByType image/x-icon "access plus 1 year"
+	ExpiresByType image/svg+xml "access plus 1 year"
+	ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+	ExpiresByType application/font-woff "access plus 1 year"
+	ExpiresByType application/x-font-woff "access plus 1 year"
+	ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+	ExpiresByType font/opentype "access plus 1 year"
+	ExpiresByType font/ttf "access plus 1 year"
+	ExpiresByType font/otf "access plus 1 year"
+	ExpiresByType application/x-font-ttf "access plus 1 year"
+	ExpiresByType application/x-font-otf "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+	Header unset Etag
+</IfModule>
+FileETag none
+<IfModule mod_deflate.c>
+	<IfModule mod_filter.c>
+		AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/x-javascript font/ttf application/x-font-ttf font/otf application/x-font-otf font/opentype
+	</IfModule>
+</IfModule>
+
+#If rewrite mod isn't enabled
+ErrorDocument 404 /shop/index.php?controller=404
+
+# ~~end~~ Do not remove this comment, Prestashop will keep automatically the code outside this comment when .htaccess will be generated again
+
