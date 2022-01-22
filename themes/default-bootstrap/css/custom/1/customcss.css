@@ -108,62 +108,47 @@ p.payment_module a {
 	background-color: #9d8d5c !important;
 	font-family: "Open Sans" !important;
 }
-/*test*/
 /**/
 /**/
 /**/
-/* STILI MEGAMENU E MENU */
+/* STILI MENU */
 /**/
 /**/
 /**/
 /**/
-.ets_mm_megamenu {
-	background-color: #000000 !important;
-}
-.ets_mm_megamenu.layout_layout1 {
+
+.sf-menu {
 	background: #000000 !important;
+	border-style: none !important;
 }
-.ets_mm_megamenu.layout_layout1:not(.ybc_vertical_menu) .mm_menus_ul {
-	//background: #000000 !important;
-}
-.layout_layout1 .mm_menus_li:last-child {
-	border-right: 0px solid #000000 !important;
-}
-.layout_layout1 .mm_menus_li:nth-child(2) {
-	border-left: 0px solid #000000 !important;
-}
-.layout_layout1 .mm_menus_li {
-	border-right: 0px solid #000000 !important;
-}
-.layout_layout1 .mm_menus_li > a {
-	color: #ffffff;
+
+/* First level menu */
+.sf-menu > li {
+	width: 195px;
+	border-style: none !important;
 }
 .sf-menu > li > a {
 	font: 200 15px/20px "Conv_Lato-Regular",sans-serif;
 	color: #ffffff !important;
 	background-color: #000000;
 	text-transform: uppercase;
-	border-bottom: 0px solid #9D8D5C;
-	text-align: center;
+	text-align: center
+        width: auto !important;
+	border-style: none !important;
 }
-.sf-menu > li {
-	border-right: 0px solid #d6d4d4;
+.sf-menu > li > ul {
+        width: auto !important;
+        left: auto !important;
+        padding: 0px !important;
 }
-.sf-menu > li {
-	width: 195px;
+/* second level menu */
+.sf-menu > li > ul > li {
+        width: auto !important;
+        float: none !important;
+        padding: 20px;
 }
-.layout_layout1 .ets_mm_megamenu_content {
-	border-bottom: 0px solid #000000 !important;
-	border-top: 0px solid #000000 !important;
-}
-.mm_blocks_li {
-	padding-top: 10px !important;
-	padding-left: 20px !important;
-	padding-right: 20px !important;
-	padding-bottom: 15px !important;
-}
-.mm_menus_ul {
-	margin-left: 8% !important;
+.sf-menu > li > ul > li:hover {
+        background: #9D8D5B;
 }
 .center {
 	display: block !important;
@@ -189,14 +174,14 @@ header {
 	margin-bottom: 20px;
 	margin-right: 10px;
 }
-#search_block_top {
-	padding-top: 0px;
-	float: left;
+#search_block_top #searchbox {
+	float: right;
+	width: 75%;
 }
 #search_block_top #search_query_top {
 	display: inline;
 	padding: 13px 60px 13px 13px;
-	height: 34px;
+	height: 25px;
 	background: #fbfbfb;
 	margin-right: 1px;
 }
@@ -213,11 +198,7 @@ ul#header_links {
 	color: #fff;
 	width: 50px;
 	text-align: center;
-	padding: 5px 0 6px 0;
-	padding-top: 5px;
-	padding-right: 0px;
-	padding-bottom: 6px;
-	padding-left: 0px;
+	padding: 2px 0 3px 0;
 }
 .nav {
 	margin-bottom: 15px;
