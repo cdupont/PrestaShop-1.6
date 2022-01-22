@@ -267,18 +267,69 @@ header .nav {
 /**/
 /**/
 /**/
+/* CMS */
+/**/
+/**/
+/**/
+/**/
+.cms {
+   color: black;
+}
+.cms h2 {
+  font-family: 'PlayfairDisplay' !important;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.cms-heading {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  line-height: 120%;
+  font-size: 15px;
+  letter-spacing: 1px;
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.cms p {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.cms-row {
+  padding: 30px;
+
+}
+/**/
+/**/
 /**/
 /* STILI FONT PERSONALIZZATE */
 /**/
 /**/
 /**/
 /**/
-@font-face {
+ @font-face {
 	font-family: 'Conv_PlayfairDisplay-Regular';
 	src: url('https://www.maschere.it/shop/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.eot');
 	src: local('☺'), url('https://www.maschere.it/shop/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.woff') format('woff'), url('https://www.maschere.it/shop/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.ttf') format('truetype'), url('https://www.maschere.it/shop/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
+}
+@font-face {
+	font-family: 'PlayfairDisplay';
+	src: url('/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+	font-family: 'PlayfairDisplay';
+	src: url('/themes/default-bootstrap/fonts/PlayfairDisplay-Italic.ttf');
+	font-style: italic;
 }
 @font-face {
 	font-family: 'Conv_Lato-Light';
