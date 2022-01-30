@@ -46,7 +46,7 @@ p.payment_module a::before {
 	font: 400 24px/28px "Conv_Lato-Light",sans-serif !important;
 	color: #000000 !important;
 	padding: 0 0 20px 0 !important;
-	border-bottom: 1px solid #d6d4d4 !important;
+	border-bottom: 1px solid  #9B8D5C!important;
 }
 .page-subheading {
 	font: 400 18px/22px "Conv_Lato-Light",sans-serif !important;
@@ -214,6 +214,7 @@ header .nav {
 }
 .page-heading.product-listing {
 	margin-bottom: 20px !important;
+        text-align: center;
 }
 .category-name {
 	display: none !important;
@@ -221,9 +222,7 @@ header .nav {
 .page-heading {
 	margin-top: 10px !important;
 }
-.layout_layout1 .ets_mm_megamenu_content {
-	background: -webkit-linear-gradient(#000000, #000000) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
-}
+
 /**/
 /**/
 /**/
@@ -344,8 +343,8 @@ header .nav {
 /**/
 @font-face {
 	font-family: 'Conv_PlayfairDisplay-Regular';
-	src: url('https://www.maschere.it/shop/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.eot');
-	src: local('☺'), url('https://www.maschere.it/shop/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.woff') format('woff'), url('https://www.maschere.it/shop/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.ttf') format('truetype'), url('https://www.maschere.it/shop/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.svg') format('svg');
+	src: url('/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.eot');
+	src: url('/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.woff') format('woff'), url('/themes/default-bootstrap/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -563,6 +562,12 @@ h3.page-product-heading {
 /**/
 /**/
 /**/
+#page .heading-counter {
+  display: none;
+}
+ul.product_list.grid {
+        padding-top: 20px;
+}
 ul.product_list.grid > li .product-container h5 {
 	padding: 0 15px 0px 15px;
 	padding-top: 0px;
@@ -595,7 +600,7 @@ a.cat_desc {
 	font-family: "Conv_PlayfairDisplay-Regular",serif !important;
 	color: #000;
 	background: #f6f6f6;
-	border-top: 5px solid #333;
+	border-top: none;
 	text-transform: uppercase;
 	padding: 14px 5px 17px 20px;
 	margin-bottom: 20px;
@@ -615,6 +620,9 @@ ul.product_list.grid > li .product-container .content_price {
 }
 ul.product_list .availability span {
 	display: none;
+}
+.content_scene_cat {
+        border-top: none;
 }
 .content_scene_cat span.category-name {
 	font-family: "Conv_PlayfairDisplay-Regular",serif !important;
@@ -672,16 +680,28 @@ ul.product_list .color-list-container {
 }
 .layered_subtitle_heading {
 	background: #f6f6f6 !important;
-	border-top: 5px solid #333 !important;
-	text-transform: uppercase !important;
+	/*text-transform: uppercase !important;*/
 	padding: 14px 5px 17px 20px !important;
 	margin-bottom: 5px !important;
 }
 #layered_block_left #enabled_filters {
-	border-bottom: 1px dotted #ffffff !important;
+        display: none;
+}
+#layered_block_left .title_block {
+        display: none;
 }
 #enabled_filters {
 	background: #ffffff !important;
+}
+#subcategories ul {
+        display: flex;
+        justify-content: space-between;
+}
+#subcategories {
+        border-top: none !important;
+        padding-top: 20px !important;
+        padding-bottom: 30px !important;
+        border-bottom: 1px solid #d6d4d4;
 }
 #subcategories ul li .subcategory-name {
 	font: 700 18px/22px "Conv_PlayfairDisplay-Regular",serif !important;
@@ -719,13 +739,19 @@ ul.product_list .product-image-container .quick-view {
 	border-top: 0px solid #999999;
 }
 #subcategories {
-	border-top: 1px solid #f7f7f7;
 	padding: 35px 15px 0px 15px;
-	background-color: #f7f7f7;
 	margin-bottom: 40px;
+        border-top: none;
 }
 #subcategories p.subcategory-heading {
 	display: none;
+}
+
+#subcategories + .content_sortPagiBar {
+        display: none;
+}
+.page-heading + .content_sortPagiBar {
+        display: none;
 }
 /* 
 ##Device = Low Resolution Tablets, Mobiles (Landscape)
