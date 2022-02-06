@@ -48,6 +48,7 @@ p.payment_module a::before {
 	padding: 0 0 20px 0 !important;
 	border-bottom: 1px solid  #9B8D5C!important;
 }
+
 .page-subheading {
 	font: 400 18px/22px "Conv_Lato-Light",sans-serif !important;
 	color: #000000 !important;
@@ -136,6 +137,25 @@ p.payment_module a {
         width: auto !important;
 	border-style: none !important;
 }
+
+/*
+.sf-menu > li:last-child {
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("https://www.maschere.it/wp-content/uploads/2017/10/made-italy_PAGE.png");
+    background-size: 100px;
+    background-origin: padding-box;
+    background-clip: border-box;
+    display:block;
+    z-index:9999 !important;
+    height: 50px;
+}
+.sf-menu > li:last-child a {
+    display: none;
+}*/
 .sf-menu > li > ul {
         width: auto !important;
         left: auto !important;
@@ -156,6 +176,10 @@ p.payment_module a {
 	margin-right: auto !important;
 	width: 35 !important;
 	margin-top: 10px !important;
+}
+
+.sf-menu a.sf-with-ul {
+        pointer-events:none;
 }
 /**/
 /**/
@@ -263,6 +287,10 @@ header .nav {
 #cmsinfo_block em {
 	background: #9D8D5C;
 }
+#cmsinfo_block {
+    border-left: none;
+    margin-top: 40px;
+}
 /**/
 /**/
 /**/
@@ -331,7 +359,6 @@ header .nav {
   background: white !important;
   padding-top: 20px;
 }
-
 
 /**/
 /**/
@@ -530,13 +557,12 @@ h3.page-product-heading {
 /**/
 /**/
 #home-page-tabs > li.active a, #home-page-tabs > li a:hover {
-	background: #000;
-	color: #fff;
+	background: none;
+	color: #9B8D5C;
 }
 #home-page-tabs {
-	border-bottom: 5px;
 	border-color: #9D8D5C;
-	border-bottom-style: solid;
+	border-bottom: 1px solid  #9B8D5C!important;
 	margin-top: 20px;
 	margin: 0 0 0 0px;
 	margin-top: 25px;
@@ -547,10 +573,15 @@ h3.page-product-heading {
 	padding-right: 10px;
 }
 #home-page-tabs > li a {
-	font-family: "Conv_PlayfairDisplay-Regular",serif !important;
-	font-weight: 700 !important;
-	color: #000;
-	text-transform: initial;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-weight: 700;
+        font-stretch: normal;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: "Conv_PlayfairDisplay-Regular", serif;
+	color: #9B8D5C;
+	text-transform: uppercase;
 	border: none;
 	outline: none;
 }
@@ -749,11 +780,31 @@ ul.product_list .product-image-container .quick-view {
 	padding-top: 20px;
 	border-top: 1px solid #999999;
 }
-#usefull_link_block {
-	list-style-type: none;
-	padding-top: 20px;
-	border-top: 0px solid #999999;
+#product_condition {
+        display: none;
 }
+#product_reference {
+        display: none !important;
+}
+#usefull_link_block {
+        display: none;
+}
+.top-hr {
+        display: none;
+}
+
+.pb-center-column h1 {
+        text-align: center;
+	color: #9B8D5C;
+        font-size: 35px;
+}
+.box-info-product .aeuc_weight_label {
+        display: none;
+}
+#our_price_display {
+        font-size: 25px;
+}
+
 #subcategories {
 	padding: 35px 15px 0px 15px;
 	margin-bottom: 40px;
